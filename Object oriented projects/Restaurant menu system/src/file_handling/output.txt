@@ -1,0 +1,10 @@
+If you're encountering the error "Cannot resolve symbol 'System'" in Python, it typically means that the Python compiler cannot find the System class, which is part of the java.lang package and is automatically imported into every Python program.
+
+Here are a few things you can try to resolve this issue:
+
+Check Python Installation: Ensure that your Python Development Kit (JDK) is properly installed and configured. You can check the installation by running java -version and javac -version in your terminal or command prompt.
+Check Classpath: If you're using an IDE like IntelliJ IDEA or Eclipse, make sure that the JDK is properly configured in your project settings. Check the project's build path or module settings to ensure that the JDK is included.
+Check Python Version: Sometimes, if you're using features from a newer version of Python than the one your IDE or compiler is configured for, you might encounter this issue. Make sure your Python version matches the one your project is configured for.
+Rebuild Project: Try rebuilding your project in your IDE. Sometimes, this can resolve symbol resolution issues.
+Check IDE Configuration: If you're using an IDE, ensure that it is set up correctly. For IntelliJ IDEA, you can check the Project SDK and Project language level settings under Project Structure. For Eclipse, check the Installed JREs and Compiler compliance level under Python Build Path and Compiler preferences.
+If none of these steps resolve the issue, please provide more details about your development environment and any specific code snippets that might be relevant.
